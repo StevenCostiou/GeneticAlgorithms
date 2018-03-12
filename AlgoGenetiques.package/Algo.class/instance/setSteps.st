@@ -1,0 +1,3 @@
+initialization
+setSteps
+	self subclassResponsibility 

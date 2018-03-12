@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Algo",
+	"category" : "AlgoGenetiques",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BruteForce",
+	"type" : "normal"
+}

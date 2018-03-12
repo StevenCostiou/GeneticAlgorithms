@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AlgoGenetiques",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"distance",
+		"tempsCalcul",
+		"nombreDePas",
+		"algorithme",
+		"nombreDeVilles"
+	],
+	"name" : "Resultat",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+algorithm
+start
+	^self subclassResponsibility 

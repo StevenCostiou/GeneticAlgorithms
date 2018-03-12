@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AlgoGenetiques",
+	"classinstvars" : [
+		"FrenchCities"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"taillePb",
+		"ordreDePassage",
+		"nom",
+		"position"
+	],
+	"name" : "Ville",
+	"type" : "normal"
+}

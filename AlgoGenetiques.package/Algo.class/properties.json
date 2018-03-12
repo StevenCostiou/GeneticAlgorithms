@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AlgoGenetiques",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startTime",
+		"endTime",
+		"builder",
+		"model",
+		"bestResult",
+		"result",
+		"configuration",
+		"visu",
+		"running",
+		"progressBar",
+		"progress"
+	],
+	"name" : "Algo",
+	"type" : "normal"
+}

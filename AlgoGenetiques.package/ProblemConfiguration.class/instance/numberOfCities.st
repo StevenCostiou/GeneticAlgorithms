@@ -1,0 +1,3 @@
+configuration
+numberOfCities
+	^ 9

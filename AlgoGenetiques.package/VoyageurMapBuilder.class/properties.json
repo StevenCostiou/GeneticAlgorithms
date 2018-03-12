@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTMapBuilder",
+	"category" : "AlgoGenetiques",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VoyageurMapBuilder",
+	"type" : "normal"
+}
