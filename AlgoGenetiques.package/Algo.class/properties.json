@@ -16,7 +16,8 @@
 		"visu",
 		"running",
 		"progressBar",
-		"progress"
+		"progress",
+		"bestModel"
 	],
 	"name" : "Algo",
 	"type" : "normal"

@@ -1,3 +1,3 @@
-configuration
+configGenet
 numberOfIterations
-	^ 1000
+	^ 500

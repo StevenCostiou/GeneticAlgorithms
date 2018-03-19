@@ -1,0 +1,3 @@
+configGenet
+populationSize
+	^ 100

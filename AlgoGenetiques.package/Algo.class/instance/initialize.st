@@ -2,23 +2,28 @@ initialization
 initialize
 	configuration := ProblemConfiguration new.
 	model := Ville villesFrancaises: configuration numberOfCities.
-	self buildView.
+	builder := VoyageurMapBuilder basicNew.
+	builder countries: RTMapBuilder France.
 	bestResult := builder evaluateCost: model.
-	self openVisualization.
+	bestModel := model.
 	running := true.
 	progress := 1.
 	[ [ running ]
 		whileTrue: [ self progressBar value: progress.
-			1000 milliSeconds wait ] ] fork.
+			100 milliSeconds wait ] ] fork.
 	50 milliSeconds wait.
-	[|resultat| startTime := Time now asDuration.
+	[ | resultat |
+	startTime := Time now asDuration.
 	self start.
 	endTime := Time now asDuration.
 	resultat := Resultat new.
-	resultat tempsCalcul: (endTime - startTime).
-	resultat nombreDePas: self setSteps.
-	resultat nombreDeVilles: configuration numberOfCities.
-	resultat distance: bestResult.
-	resultat algorithme: self class name printString.
+	resultat
+		tempsCalcul: endTime - startTime;
+		nombreDePas: self setSteps;
+		nombreDeVilles: configuration numberOfCities;
+		distance: bestResult;
+		algorithme: self class name printString.
 	resultat printString inspect.
-	running := false ] fork
+	running := false.
+	self buildView.
+	self progressBar delete ] fork

@@ -1,0 +1,3 @@
+configGenet
+numberOfSelectedParents
+	^ 30

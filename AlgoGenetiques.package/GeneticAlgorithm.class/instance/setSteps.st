@@ -1,0 +1,3 @@
+initialization
+setSteps
+	^ configuration numberOfIterations

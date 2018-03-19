@@ -1,0 +1,3 @@
+configGenet
+mutationRate
+	^ 50

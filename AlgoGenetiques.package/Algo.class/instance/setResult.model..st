@@ -1,6 +1,6 @@
 algorithm
-setResult: value model: aModel
+setResult: evaluatedResult model: evaluatedModel
 	self progress.
-	value < bestResult
-		ifTrue: [ bestResult := value.
-			builder updateVilles: aModel ]
+	evaluatedResult < bestResult
+		ifTrue: [ bestResult := evaluatedResult.
+			bestModel := evaluatedModel shallowCopy ]
