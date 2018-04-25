@@ -1,3 +1,3 @@
 configuration
 numberOfCities
-	^ 8
+	^ 11

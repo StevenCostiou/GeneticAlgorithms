@@ -1,3 +1,3 @@
 configGenet
 numberOfIterations
-	^ 500
+	^ 250
